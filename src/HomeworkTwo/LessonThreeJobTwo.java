@@ -1,7 +1,5 @@
 package HomeworkTwo;
 
-
-
 import java.util.Scanner;
 
 public class LessonThreeJobTwo {
