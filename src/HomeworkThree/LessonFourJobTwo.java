@@ -17,10 +17,10 @@ public class LessonFourJobTwo {
 	else System.out.println ("Вы проиграли. Попрбуйте еще раз");
 
 	
-	
+	d.close();
 	}
     System.out.println ("Конец игры");
-		
+    
 		
 	}
 }

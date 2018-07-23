@@ -12,7 +12,11 @@ public class LessonThreeJobTwo {
 	
 	if ((a % 1) == 0 & (a % a) == 0 & (a % 2) > 0 & (a % 3) > 0) System.out.println( "Число простое");
 	else System.out.println( "Число не является простым");
-	
+	//finally {
+		
+		sc.close();
+		
+	}
 	
 	}
-}
+

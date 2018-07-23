@@ -23,6 +23,7 @@ public class LessonFourJobOne {
 			builder.append(y[i]);            //добавляет готовую строку (массив?)
 		}
 	}
+		a.close();
 	System.out.println ("Sum of digits in a row  " + sum);
 	System.out.println ("String  " +  builder.toString());
 	
