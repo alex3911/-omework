@@ -17,7 +17,7 @@ public abstract class flowerBouquet  implements bouquet {
 	Flowers lily = new lily ();
 	Flowers narcissus = new narcissus ();
 	
-	public void value(com.flowers.meadow.chamomile chamomile, com.flowers.meadow.cornflower cornflower,
+	public void value(chamomile chamomile,cornflower cornflower,
 			com.flowers.meadow.celandine celandine, com.flowers.cultural.rose rose, com.flowers.cultural.lily lily,
 			com.flowers.cultural.narcissus narcissus) {
 		double a = chamomile.getsize() + cornflower.getsize() + celandine.getsize() + rose.getsize() + lily.getsize() + narcissus.getsize();
@@ -39,6 +39,5 @@ public abstract class flowerBouquet  implements bouquet {
 		
 	}
 	
-
 
 }

@@ -6,21 +6,22 @@ import com.flowers.cultural.rose;
 import com.flowers.meadow.celandine;
 import com.flowers.meadow.chamomile;
 import com.flowers.meadow.cornflower;
-
+import com.flowers.Flowers;
 
 public class bouquets {
 
 	public static void main(String[] args) {
 		
-		Flowers chamomile = new chamomile ();
-		Flowers cornflower = new cornflower ();
-		Flowers celandine = new celandine ();
-		Flowers rose = new rose ();
-		Flowers lily = new lily ();
-		Flowers narcissus = new narcissus ();
+		chamomile chamomile = new chamomile ();
+		cornflower cornflower = new cornflower ();
+		celandine celandine = new celandine ();
+		rose rose = new rose ();
+		lily lily = new lily ();
+		narcissus narcissus = new narcissus ();
 		
-		Flowers flowers = new Flowers ();
-		flowers.value ();
+		Flowers flowers =new Flowers();
+		
+		flowers.value (chamomile, cornflower, celandine, rose, lily, narcissus);
 	}
 
 }

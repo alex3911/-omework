@@ -8,64 +8,65 @@ import com.flowers.meadow.chamomile;
 import com.flowers.meadow.cornflower;
 
 public class Flowers implements bouquet {
-	
-	int size = 20;
-	double value = 15.5;
-	boolean freshness = true;
-	String name = "Name";
 
-	public int getsize () {
-		return size;
-		}
+    int size = 20;
+    double value = 15.5;
+    boolean freshness = true;
+    String name = "Name";
 
-		public void setsize (int size) {
-		this.size = size;
-		}
-		
-		public double getvalue () {
-		return value;
-		}
+    public int getsize() {
+        return size;
+    }
 
-		public void setvalue (double value) {
-		this.value = value;
-		}
-		
-		public boolean freshness () {
-			return freshness;
-			}
-			public void freshness (boolean freshness) {
-			this.freshness = freshness;
-			}
-			
-		public String getname () {
-		return name;
-		}
+    public void setsize(int size) {
+        this.size = size;
+    }
 
-		public void setname (String name) {
-		this.name = name;
-		}
+    public double getvalue() {
+        return value;
+    }
 
-		@Override
-		public void value(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
-				narcissus narcissus) {
-			double a = chamomile.getsize() + cornflower.getsize() + celandine.getsize() + rose.getsize() + lily.getsize() + narcissus.getsize();
-			System.out.print("Цена букета равна  " + a);
-			
-		}
+    public void setvalue(double value) {
+        this.value = value;
+    }
 
-		@Override
-		public void freshness(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
-				narcissus narcissus) {
-			// TODO Auto-generated method stub
-			
-		}
+    public boolean freshness() {
+        return freshness;
+    }
 
-		@Override
-		public void length(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
-				narcissus narcissus) {
-			// TODO Auto-generated method stub
-			
-		}
+    public void freshness(boolean freshness) {
+        this.freshness = freshness;
+    }
 
-		
+    public String getname() {
+        return name;
+    }
+
+    public void setname(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void value(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
+                      narcissus narcissus) {
+    	double a = chamomile.getvalue() + cornflower.getvalue() + celandine.getvalue() + rose.getvalue() + lily.getvalue() + narcissus.getvalue();
+        System.out.print("пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ  " + a);
+
+    }
+
+    @Override
+    public void freshness(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
+                          narcissus narcissus) {
+        // TODO Auto-generated method stub
+
+    }
+
+    @Override
+    public void length(chamomile chamomile, cornflower cornflower, celandine celandine, rose rose, lily lily,
+                       narcissus narcissus) {
+        // TODO Auto-generated method stub
+
+    }
+
+
 }
